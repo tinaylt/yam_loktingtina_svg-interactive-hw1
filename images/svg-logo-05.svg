@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="domino-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 966 871" style="enable-background:new 0 0 966 871;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#006695;}
+	.st2{fill:#ED1B35;}
+
+	@keyframes combine {
+		0% {tranform}
+	}
+
+	#domino:hover #red {
+		animation: rotate 2s infinite;
+	}
+
+	#domino:hover #blue {
+		animation: rotate-right 2s infinite;
+	}
+
+
+		@keyframes rotate {
+        0% {transform: rotate(0);}
+        100% {transform: rotate(-8deg);}
+    }
+
+	@keyframes rotate-right {
+		0% {transform: rotate(0);}
+        100% {transform: rotate(10deg);}
+	}
+</style>
+
+<script>
+    const VectorGraphic = document.querySelector('#domino-logo');
+
+    function logThisId() {
+    console.log(this);
+    console.log('clicked on this element', this.id);
+    }
+
+    VectorGraphic.addEventListener('click', logThisId);
+</script>
+
+<g id="domino">
+	<path id="outline_00000152981000262715273920000008289445726564239259_" class="st0" d="M392.1,718.8c-11.5,0-22.2-4.5-30.3-12.6
+		L204.2,548.5c-9.7-9.7-15.1-22.6-15.1-36.4c0-13.7,5.4-26.7,15.1-36.4L593.9,86.1c5.1-5.1,11.8-7.9,19-7.9s13.9,2.8,19,7.9
+		l184.5,184.5c5.6,5.6,8.6,13,8.6,20.9s-3.1,15.3-8.6,20.9l-394,393.8C414.3,714.3,403.6,718.8,392.1,718.8z"/>
+	<path id="background_00000071537971201319160490000009564328783530478220_" class="st0" d="M809.3,305.2L415.4,699.1
+		c-12.8,12.8-33.6,12.8-46.5,0L211.2,541.5c-16.2-16.2-16.2-42.4,0-58.6L601,93.1c6.6-6.6,17.3-6.6,23.8,0l184.5,184.5
+		C816.9,285.2,816.9,297.6,809.3,305.2z"/>
+	<path id="blue" class="st1" d="M391.5,302.6L199.2,494.9c-10,10-10,26.3,0,36.4l177.6,177.6c8,8,20.9,8,28.9,0l196.1-196.1
+		L391.5,302.6z M319.3,569.5c-28.7,0-51.9-23.2-51.9-51.9s23.2-51.9,51.9-51.9s51.9,23.2,51.9,51.9
+		C371.1,546.3,347.9,569.5,319.3,569.5z M468.3,565.1c-28.7,0-51.9-23.2-51.9-51.9s23.2-51.9,51.9-51.9c28.7,0,51.9,23.2,51.9,51.9
+		C520.2,541.9,496.9,565.1,468.3,565.1z"/>
+	<path id="red" class="st2" d="M805.3,273.7L627.7,96.1c-8-8-20.9-8-28.9,0l-196,196.1L613,502.4l192.3-192.3
+		C815.4,300,815.4,283.7,805.3,273.7z M612.9,345.1c-29.6,0-53.7-24-53.7-53.7c0-29.6,24-53.7,53.7-53.7c29.6,0,53.7,24,53.7,53.7
+		C666.5,321.1,642.5,345.1,612.9,345.1z"/>
+</g>
+</svg>

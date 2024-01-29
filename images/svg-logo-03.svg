@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="applemusic" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 668 636" style="enable-background:new 0 0 668 636;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EF4167;}
+	.st1{fill:#FFFFFF;}
+
+@keyframes bounce {
+	0% {transform: translate(0)}
+	100% {transform: translateY(-60px)}
+}
+
+#applemusic:hover #note {
+	animation: bounce .6s infinite;
+}
+
+</style>
+
+<script>
+    const VectorGraphic = document.querySelector('#applemusic');
+
+    function logThisId() {
+    console.log(this);
+    console.log('clicked on this element', this.id);
+    }
+
+    VectorGraphic.addEventListener('click', logThisId);
+</script>
+
+<g id="apple-music">
+	<path id="background_00000178181620370902111540000011983273712326314384_" class="st0" d="M444.8,517H224.2
+		c-49.3,0-89.2-40-89.2-89.2V207.2c0-49.3,40-89.2,89.2-89.2h220.5c49.3,0,89.2,40,89.2,89.2v220.5C534,477,494,517,444.8,517z"/>
+	<path id="note" class="st1" d="M275,219c-0.3,4.4-0.5,6.6-0.5,9.6c0,2.5,0.1,5.6,0.5,9.3l0,0c0,0.1,0,0.2,0.1,0.3
+		c0,34.8,0,126.1,0,126.1s1.8,13.7-7,15.7c-9,2-17,4-17,4l-15,4.4l0,0c-16.1,4-24,15.9-24,30.1c0,17.4,13,33.5,36.5,31.5
+		c13.5-1.2,25.4-4.8,31.7-14c2.1-1.9,6.6-6.8,8.8-15c0.6-2.2,0.8-7,1-12.9c0-15.2,0-30.4,0-45.5c0-34.5,0-63.5,1-90.5
+		c0.2-5.4,13.3-7.5,21.3-9.1l88.6-17.7c3.7-0.7,6.1-1.2,8.1,2.8c1,43,1,88.3,1,88.3s2.1,11.6-6,15.7c-10,5-14.5,5.2-19.5,5.9
+		c-3.2,0.4-12.5,2.6-12.5,2.6l0,0c-16.1,4-24,15.9-24,30.1c0,17.4,13,33.5,36.5,31.5c13.5-1.2,25.4-4.8,31.7-14
+		c2.1-1.9,6.6-6.8,8.8-15c0.6-2.2,0.8-7,1-12.9c0-15.2,0-30.4,0-45.5c0-38.5,0-76.9,0-115.4c0.5-3.3,0.6-6.7,0-10.1
+		c0-10.4,1-12.1-1-25.1c-2-5-6-6-16-4s-12,2.2-20.5,3.9L300,201.8c-3,0.6-5,1-7.5,1.5c-4.3,0.8-4.1,0.7-4.9,0.9
+		c-2.4,0.6-9,2.2-11.5,7C275.6,211.8,275.4,214.2,275,219z"/>
+</g>
+</svg>

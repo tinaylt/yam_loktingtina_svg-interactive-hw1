@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="facebook-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 612 520" style="enable-background:new 0 0 612 520;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#3474BA;}
+	.st1{fill:#FFFFFF;}
+
+#facebook:hover #background {
+	fill:black;
+	opacity: 60%;
+}
+
+#facebook-logo:hover #f {
+	animation: scale 3s infinite;
+	transform-origin: center;
+}
+
+@keyframes scale {
+		0% {transform: scale(0);}
+    100% {transform: scale(1);}
+}
+
+</style>
+
+<script>
+    const VectorGraphic = document.querySelector('#facebook-logo');
+
+    function logThisId() {
+    console.log(this);
+    console.log('clicked on this element', this.id);
+    }
+
+    VectorGraphic.addEventListener('click', logThisId);
+</script>
+
+<g id="facebook">
+	<path id="background" class="st0" d="M414.6,404H197.4c-30,0-54.4-24.4-54.4-54.4V132.4c0-30,24.4-54.4,54.4-54.4h217.2
+		c30,0,54.4,24.4,54.4,54.4v217.2C469,379.6,444.6,404,414.6,404z"/>
+	<path id="f" class="st1" d="M342.5,184.5h30v-41c0,0-34-5-49-3c-5.8,0.8-8.8,0.3-19,6c-9,5-9,4.8-18,15c-8,9-13,20-14,34
+		c-0.8,11.3-1.2,26.7-1.4,44h-38.6v47h38.6c0.5,57.5,2.4,116,2.4,116h50c0,0-0.3-59.5,0.2-116h37.8l7-47h-44.1
+		c0.3-12.8,0.6-24.1,1.1-33C326.5,186.5,342.5,184.5,342.5,184.5z"/>
+</g>
+</svg>
