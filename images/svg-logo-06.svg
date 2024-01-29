@@ -8,11 +8,31 @@
 	.st2{fill:#E6E6E6;}
 	.st3{fill:#E6E7E8;}
 
-	#plane {
-		fill: orange;
+	@keyframes fly {
+		0% {transform: scale(1);}
+		50% {
+			transform: scale(0.1) translate(200%, -200%);
+			}
+		100% {transform: scale(0);}
+	}
+
+	#telegram-logo:hover #plane {
+		animation: fly 10s infinite;
+		transform-origin: center;
 	}
 
 </style>
+
+<script>
+    const VectorGraphic = document.querySelector('#telegram-logo');
+
+    function logThisId() {
+    console.log(this);
+    console.log('clicked on this element', this.id);
+    }
+
+    VectorGraphic.addEventListener('click', logThisId);
+</script>
 
 <ellipse id="background" class="st0" cx="505" cy="472" rx="317" ry="319"/>
 <g id="plane">
