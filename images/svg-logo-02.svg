@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="jbl" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 668 587" style="enable-background:new 0 0 668 587;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#2E3192;}
+
+@keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+
+#tri, #dot {
+	animation: fadeIn 1.5s infinite;
+}
+
+#jbl:hover {
+	animation: fadeIn infinite 3s;
+	transform: scale(1.2);
+	transition-duration: .7s;
+}
+</style>
+
+<script>
+    const VectorGraphic = document.querySelector('#jbl');
+
+    function logThisId() {
+    console.log(this);
+    console.log('clicked on this element', this.id);
+    }
+
+    VectorGraphic.addEventListener('click', logThisId);
+</script>
+
+<g id="jbl-logo">
+	<path id="j" class="st0" d="M239,176v180c0,8.8-8.2,15-17,15s-16-6.2-16-15v-36h-36v27c0,22.6,18.4,41,41,41h23
+		c22.6,0,41-18.4,41-41V176H239z"/>
+	<polyline id="tri" class="st0" points="186,249 152,175 219,175 	"/>
+	<circle id="dot" class="st0" cx="186.5" cy="277.5" r="21.5"/>
+	<g id="b">
+		<path class="st0" d="M372,175h-68v97h77c11,1,13-3,19-10c3.9-4.5,6-8.6,6-15v-38C406,190.2,390.8,175,372,175z M371,217.9v27.8
+			c0,11.3-5,17.3-12.3,17.3H337v-70h19.7C367,193,372,204,371,217.9z"/>
+		<path class="st0" d="M398.7,278.4c-3.4-3.2-6.7-5.4-12.6-5.7c-3.5-0.2-4.1-0.7-12.7-0.7H304l-1,111.9l76.5-1
+			C391,381,408,370.1,408,354.3v-43.5C408.5,293.4,404.2,283.7,398.7,278.4z M372.9,311.2v32.6c0,13.3-5.3,20.3-13,20.3H337v-82
+			h20.7C368.6,282,373.9,294.9,372.9,311.2z"/>
+	</g>
+	<path id="l" class="st0" d="M502,352.1c0,8.2-6.7,14.9-14.9,14.9h-3.2c-8.2,0-14.9-6.7-14.9-14.9V175h-35v209h102v-63h-34V352.1z"
+		/>
+</g>
+</svg>
