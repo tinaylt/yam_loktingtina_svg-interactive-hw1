@@ -1,0 +1,17 @@
+.hidden {
+    display: none;
+}
+
+.logo-style {
+    width: 30rem;
+}
+
+.logo-style object {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+* {
+    margin: 0;
+    
+}
