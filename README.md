@@ -1,23 +1,23 @@
-##Project Name: Interactive SVG icon
+## Project Name: Interactive SVG icon
 This is a practice for how to use svg file to interact with the brower. 
 
-###Installation
+### Installation
 You can fork to copy the project
 
-###Usage
+### Usage
 please hover your cursor to the logo directly to get intertive. 
 
-###Contributing
+### Contributing
 1. Fork it!
 2. Create you feature branch
 3. Commit your changes
 4. Push to the branch
 5. Submit a pull request
 
-###Credit
+### Credit
 Me and Professor
 
-###License
+### License
 Copyright (c) 2012-2024 Tina
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
